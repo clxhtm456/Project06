@@ -1,0 +1,15 @@
+
+#define UNITSPEED 240
+#define UNITMAXHP 200
+#define HPREGEN 50
+#define MAXLEVEL 10
+#define PI 3.141592
+
+typedef enum
+{
+	UNIT_TYPE_PLAYER,
+	UNIT_TYPE_ENEMY,
+	UNIT_TYPE_NINJA,
+	UNIT_TYPE_MONK
+}UNITTYPE;
+
